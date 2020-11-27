@@ -10,7 +10,7 @@ Let's start the business of understanding these other representations of numbers
 4. Next, multiply one by zero.
 5. The number we are interested in is the sum of the four numbers that you obtained from these four multiplications.
 
-__To complete this exercise, I would like you to use this idea to complete the function called `numberOfThousands` shown in the panel on the left.__  This function should take an integer with a value less than or equal to 9999, which we shall call `N` as input.  The function should then return the first-digit of that number, i.e. if 3260 is input the function should return 3.  You will likely need to use the `np.floor` function to complete this task.  This function chops off the part of the number after the decimal point.  In other words, if we do:
+__To complete this exercise, I would like you to use this idea to complete the function called `numberOfThousands` shown in `main.py`.__  This function should take an integer with a value less than or equal to 9999, which we shall call `N` as input.  The function should then return the first-digit of that number, i.e. if 3260 is input the function should return 3.  You will likely need to use the `np.floor` function to complete this task.  This function chops off the part of the number after the decimal point.  In other words, if we do:
 
 ````
 a = np.floor( 3.260 )
