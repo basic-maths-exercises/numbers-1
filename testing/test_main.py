@@ -1,4 +1,13 @@
-import AssCheck.funcchecks as fc
+try:
+    from AssCheck import funcchecks as fc
+except:
+
+    import subprocess
+    import sys
+
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "AssCheck"])
+    from AssCheck import funcchecks as fc
+
 import unittest
 from main import *
 
