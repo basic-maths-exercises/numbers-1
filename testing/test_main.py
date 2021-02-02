@@ -7,5 +7,5 @@ class UnitTests(unittest.TestCase) :
         inputs, outputs = np.zeros(20), np.zeros(20)
         for i in range(20) :
             inputs[i] = np.random.randint(1,9999)
-            outputs[i] = int( np.floor( val / 1000) )
-        assert( fc.check_func('numberOfThousands', inputs, outputs ) 
+            outputs[i] = int( np.floor( inputs[i] / 1000) )
+        assert( fc.check_func('numberOfThousands', inputs, outputs ) ) 
